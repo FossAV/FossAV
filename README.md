@@ -4,7 +4,7 @@ Also everyone who's helping, we need a good way to comunicate...
 WARNING: DO NOT USE THIS PROJECT WRONG. THIS PROJECT COULD CONTAIN POTENTIATLY HARMFULL PROGRAMS OR SCRIPTS!!! PLEASE DON'T DO SOMETHING YOU AREN'T COMFORTABLE DOING!!!!!!!!!!!!!
 
 
-# OpenSourceAntiVirus
+# Foss AV
 An open source Antivirus for everyone that wants to!
 (no, you're not getting paid)
 
