@@ -1,0 +1,3 @@
+HASH_REPO=""
+HASH_BRANCH=""
+AUTO_UPDATE=true
