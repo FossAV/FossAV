@@ -5,7 +5,7 @@ WARNING: DO NOT USE THIS PROJECT WRONG. THIS PROJECT COULD CONTAIN POTENTIATLY H
 
 
 # Foss AV
-(name by @jdev082 & @webdev03)
+(name by @jdev082 & @webdev03, free and open source software antivirus)
 
 An open source Antivirus for everyone that wants to!
 (no, you're not getting paid)
