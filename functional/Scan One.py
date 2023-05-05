@@ -5,7 +5,7 @@ def checkSketchy(sourcePath):
     flags = ['.vbs', 'virus', 'trojan', 'malware', 'ransom', 'ransomware',
              'worm', '.bat'
              ]
-    copyFile(sourcePath, r'scan.txt')
+    copyFile(sourcePath, 'scan.txt')
     end = 0
     fileToList('scan.txt', 'no')
     if any(substring in str(sourcePath) for substring in flags):
