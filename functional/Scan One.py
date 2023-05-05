@@ -9,14 +9,14 @@ def checkSketchy(sourcePath):
     end = 0
     fileToList('scan.txt', 'no')
     if any(substring in str(sourcePath) for substring in flags):
-        print("Possible Threat")
+        print("File is malicious.")
         end = 1
     if any(item in myFile for item in evilCode):
-        print("Possible Threat")
+        print("File is malicious.")
         end = 1
     os.remove('scan.txt')
     if end == 0:
-        print("Nothing Detected")
+        print("File clean!")
 
 
 
