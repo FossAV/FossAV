@@ -27,21 +27,20 @@ def copyFile(location, destination):
 
 def fileToList(fileName, flag):
     filename = os.path.normpath(fileName)
-    infile = open(filename, 'r', encoding="utf8") 
-    lines = infile.readlines()
-    for line in lines:
-        if flag == 'no':
-            myFile.append(str(line))
-        else:
-            evilCode.append(str(line))
-    infile.close()
+    with open(filename, 'r', encoding="utf8") as infile:
+        lines = infile.readlines()
+        for line in lines:
+            if flag == 'no':
+                myFile.append(str(line))
+            else:
+                evilCode.append(str(line))
 
 def importFilesFromFlags():
     entries = os.listdir('Flags/')
     repeat = len(entries)
     for i in range(repeat):
         itemInList = entries[int(i)]
-        fileToList('Flags/' + str(itemInList), 'yes')
+        fileToList(f'Flags/{str(itemInList)}', 'yes')
 
 
 
