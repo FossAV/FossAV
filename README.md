@@ -17,5 +17,6 @@ virus databases:
   - https://github.com/maestron/botnets
   - https://github.com/alvin-tosh/Malware-Exhibit
   - https://github.com/bandarji/vscdb/tree/master
+  
  Hashes:
   - https://virusshare.com
