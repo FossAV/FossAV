@@ -20,3 +20,6 @@ virus databases:
   
  Hashes:
   - https://virusshare.com
+
+
+Also you're welcome for 6.5 million sha256 virus hashes. From @piggo4676
