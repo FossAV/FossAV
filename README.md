@@ -18,4 +18,4 @@ virus databases:
   - https://github.com/alvin-tosh/Malware-Exhibit
   - https://github.com/bandarji/vscdb/tree/master
  Hashes:
-  - Virusshare.com
+  - https://virusshare.com
